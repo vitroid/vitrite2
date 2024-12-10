@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vitrite2"
+version = "0.1.0"
+description = ""
+authors = ["vitroid <vitroid@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+numpy = "^2.2.0"
+networkx = "^3.4.2"
+cycless = "^0.4.3"
+icecream = "^2.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
